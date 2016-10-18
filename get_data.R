@@ -10,7 +10,7 @@ R_SQL <-  dbConnect(RMySQL::MySQL(),
 
 bike <- dbGetQuery(R_SQL,"SELECT * FROM rowery ORDER BY start_time, start_location, end_time")
 setwd("/home/klaudia/Dokumenty/Studia/7 semestr/Praca inżynierska/")
-station <- read.table(file="StacjeWrocław.csv", header=TRUE, sep=",")
+station <- read.table(file="StacjeWroclaw.csv", header=TRUE, sep=",")
 
 start_location <- bike$start_location
 end_location <- bike$end_location

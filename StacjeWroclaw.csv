@@ -1,4 +1,4 @@
-Lokalizacja,nr_stacji,id_stacji,szer_geogr,dl_geogr
+Location,station_number,station_id,latitude,longitude
 Pl. Kromera,1,349478,51.13207714749649,17.06550121307373
 Jedności Narodowej - Wyszyńskiego,2,349860,51.12811145398997,17.05474019050598
 Jedności Narodowej - Nowowiejska,3,349854,51.12462351680015,17.045599222183228
